@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/interior-consultant/static/css/main.b1979cf3.chunk.css",
+    "main.js": "/interior-consultant/static/js/main.205e78e5.chunk.js",
+    "main.js.map": "/interior-consultant/static/js/main.205e78e5.chunk.js.map",
+    "runtime-main.js": "/interior-consultant/static/js/runtime-main.b81073b0.js",
+    "runtime-main.js.map": "/interior-consultant/static/js/runtime-main.b81073b0.js.map",
+    "static/js/2.c0bd996d.chunk.js": "/interior-consultant/static/js/2.c0bd996d.chunk.js",
+    "static/js/2.c0bd996d.chunk.js.map": "/interior-consultant/static/js/2.c0bd996d.chunk.js.map",
+    "index.html": "/interior-consultant/index.html",
+    "static/css/main.b1979cf3.chunk.css.map": "/interior-consultant/static/css/main.b1979cf3.chunk.css.map",
+    "static/js/2.c0bd996d.chunk.js.LICENSE.txt": "/interior-consultant/static/js/2.c0bd996d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b81073b0.js",
+    "static/js/2.c0bd996d.chunk.js",
+    "static/css/main.b1979cf3.chunk.css",
+    "static/js/main.205e78e5.chunk.js"
+  ]
+}
