@@ -1,0 +1,156 @@
+.container {
+    max-width: 1300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero_content {
+    padding: 100px 0;
+    width: 90%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text_main {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.main_t {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61.44px;
+    margin-bottom: 30px;
+}
+
+.main_p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.26px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.main_img {
+    width: 90%;
+    margin-left: 60px;
+    z-index: -1;
+    position: relative;
+}
+
+.read_more {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 21.94px;
+    font-weight: 700;
+}
+
+.icon {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.tweet_card {
+    padding: 20px;
+    background-color: #181719;
+    width: 60%;
+    margin-left: 200px;
+    margin-top: -80px;
+    z-index: 999;
+}
+
+.profile_name {
+    display: flex;
+}
+
+.profile_img img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.name_sec {
+    align-self: center;
+    margin-left: 20px;
+}
+
+.main_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: 14px;
+    line-height: 17.07px;
+}
+
+.prof small {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.desc_txt {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.72px;
+    margin-top: 20px;
+    font-family: 'Lora', serif;
+}
+
+.cc {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_content {
+        padding: 50px 0;
+        width: 90%;
+    }
+
+    .main_t {
+        font-size: 36px;
+        line-height: 46.08px;
+    }
+
+    .main_p {
+        font-size: 14px;
+        line-height: 17.07px;
+    }
+
+    .read_more {
+        font-size: 14px;
+    }
+
+    .main_img {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tweet_card {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
